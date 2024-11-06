@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>home</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="header-brand">Market Plus</a>
+
+                <div class="user-parent"><span>Welcome: <a  id="user" href="#"></a></span></div>
+
+                <nav >
+                    <ul id="links">
+                        <li><a href="login.html">sign In</a></li>
+                        <li><a href="register.html">sign Up</a></li>
+                    </ul>
+                    <ul id="user-info">
+                       
+                        <li class="shoppingCart">
+                            <i class="fa-solid fa-cart-shopping">
+                            </i><span class="badge">0</span>
+
+                            <div class="carts-products">
+                                <i class="fa-solid fa-xmark iconXmark"></i>
+                                <div>
+                                    
+                                </div>
+                                
+                                <a href="cartproducts.html">view all products</a>
+                            </div>
+                        </li>
+                        <li><a href="#" id="logout">logOut</a></li>
+                    </ul>
+                </nav>
+
+
+            </div>
+            
+        </div>
+    </header>
+
+    <section>
+        <section>
+            <div class="container">
+                <div class="search-container">
+                    <select id="searchType">
+                        <option value="NAME">Search by Name</option>
+                        <option value="CATEGORY">Search by Category</option>
+                    </select>
+                    <input type="text" id="searchInput" placeholder="Enter search term" onkeyup="search()">
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="home">
+        <div class="container">
+            <div  class="products">
+                
+            </div>
+            
+        </div>
+    </section>
+    
+    <footer>
+        <div>
+        <div>
+            <ul>
+                <h3 class="text-light">Store Information</h3>
+                <li><a href="#"><i class="fas fa-map-marker-alt"></i>Egypt</a></li>
+                <li><a href="#"><i class="fas fa-phone-alt"></i> 01556425351</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i> email4deva7med@gmail.com</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h3>Information</h3>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Delivery Information</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Site Map</a></li>
+            </ul>
+        </div>
+        <div class=" footer-item-cards">
+            <img src="images/paypal.png" alt="#">
+            <img src="images/master_card.png" alt="#">
+            <img src="images/visa.png" alt="#">
+            <img src="images/american_express.png" alt="#">
+            <img src="images/discover.png" alt="#">
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    
+
+    
+
+
+  
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
